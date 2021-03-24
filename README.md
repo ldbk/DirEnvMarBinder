@@ -33,7 +33,8 @@ channels:
 dependencies:
   - r-base=3.6
   
-For a list of R package in condo see <https://docs.anaconda.com/anaconda/packages/r-language-pkg-docs/>
+For a list of R package in condo see h<ttps://docs.anaconda.com/anaconda/packages/r-language-pkg-docs/>
 
 - go to <https://mybinder.org/> to prep the virutal env
-- get the link
+- get the link and add Rstudio stuff at the end like : 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/betatim/r-conda/master?urlpath=rstudio)
