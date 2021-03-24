@@ -6,6 +6,11 @@ Dépôt de cours sur les directives européennes touchant au milieu marin et leu
 
 RStudio : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ldbk/DirEnvMarBinder/master?urlpath=rstudio)
 
+# Ressources
+
+Pour le R Markdown : <https://rmarkdown.rstudio.com/lesson-15.HTML>
+
+Pour BinderHub : <https://en.wikipedia.org/wiki/Binder_Project> 
 
 # Short text from binder example github 
 
