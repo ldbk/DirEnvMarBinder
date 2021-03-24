@@ -1,12 +1,16 @@
-# r-conda
+# DirEnvMar + BinderHub !
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ldbk/DirEnvMarBinder/master?urlpath=rstudio)
+Dépôt de cours sur les directives européennes touchant au milieu marin et leurs mises en application
+
+# Environnement de dev basé sur Binder Hub
+
+RStudio : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ldbk/DirEnvMarBinder/master?urlpath=rstudio)
+
+
+# Short text from binder example github 
 
 > R and RStudio in repo2docker without waiting for packages to compile!
 
-Jupyter+R: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/r-conda/master?filepath=index.ipynb)
-
-RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/r-conda/master?urlpath=rstudio)
 
 Binder supports using R and RStudio, with libraries pinned to a specific versions.
 
@@ -25,15 +29,9 @@ the RStudio interface.
 See <https://mybinder.readthedocs.io/en/latest/introduction.html>
 
 - public repo on github
-- add an environment.yml (conda style) containing stuff like :
-
-channels:
-  - conda-forge
-dependencies:
-  - r-base=3.6
-  
-For a list of R package in condo see h<ttps://docs.anaconda.com/anaconda/packages/r-language-pkg-docs/>
-
+- add an runtime.txt containing the R version
+- add a install.R file for the packages needed in the dev env
+- apt.txt asks the install of some specific linux library
 - go to <https://mybinder.org/> to prep the virutal env
 - get the link and add Rstudio stuff at the end like : 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/betatim/r-conda/master?urlpath=rstudio)
+`[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/betatim/r-conda/master?urlpath=rstudio)`

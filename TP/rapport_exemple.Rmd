@@ -54,7 +54,7 @@ map("worldHires",xlim=c(-1.5,0.8),ylim=c(49.2,49.7),col="light grey",fill=T,add=
 Les données sont lues :
 
 ```{r readdata,eval=T}
-chl<-stack("./data/chl")
+chl<-stack("./data/chl.nc")
 ```
 ## Données mensuelles 
 
