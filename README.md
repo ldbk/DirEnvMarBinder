@@ -19,3 +19,18 @@ For some R packages there is no corresponding conda-forge package yet, in that c
 Both [RStudio](https://www.rstudio.com/) and [IRKernel](https://irkernel.github.io/)
 are installed by default, so you can use either the Jupyter notebook interface or
 the RStudio interface.
+
+# Quick and dirty recipes for Binder & RStudio
+
+See <https://mybinder.readthedocs.io/en/latest/introduction.html>
+
+- public repo on github
+- add an environment.yml (conda style) containing stuff like :
+
+channels:
+  - conda-forge
+dependencies:
+  - r-base=3.6
+
+- go to <https://mybinder.org/> to prep the virutal env
+- get the link
